@@ -6,8 +6,8 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate, useLocation } from "react-router-dom";
 
-import fuLogger from '../../core/common/fu-logger';
-import EventsView from '../../memberView/events/events-view';
+import fuLogger from '../../../core/common/fu-logger';
+import EventsView from '../../../memberView/social/events/events-view';
 
 
 function EventsContainer() {

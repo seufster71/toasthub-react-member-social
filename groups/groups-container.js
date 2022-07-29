@@ -6,9 +6,9 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate, useLocation } from "react-router-dom";
 import * as actions from './groups-actions';
-import fuLogger from '../../core/common/fu-logger';
-import GroupsView from '../../memberView/groups/groups-view';
-import BaseContainer from '../../core/container/base-container';
+import fuLogger from '../../../core/common/fu-logger';
+import GroupsView from '../../../memberView/social/groups/groups-view';
+import BaseContainer from '../../../core/container/base-container';
 
 function GroupsContainer() {
 	const itemState = useSelector((state) => state.pmproject);

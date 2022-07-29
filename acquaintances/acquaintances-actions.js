@@ -1,5 +1,5 @@
-import callService from '../../core/api/api-call';
-import actionUtils from '../../core/common/action-utils';
+import callService from '../../../core/api/api-call';
+import actionUtils from '../../../core/common/action-utils';
 
 
 // thunk

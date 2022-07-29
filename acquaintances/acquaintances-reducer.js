@@ -1,4 +1,4 @@
-import reducerUtils from '../../core/common/reducer-utils';
+import reducerUtils from '../../../core/common/reducer-utils';
 
 export default function acquaintanceReducer(state = {}, action) {
 	let myState = {};

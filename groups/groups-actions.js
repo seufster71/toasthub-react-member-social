@@ -1,4 +1,4 @@
-import callService from '../../core/api/api-call';
+import callService from '../../../core/api/api-call';
 
 // action
 export function loadInitGroup(responseJson) {

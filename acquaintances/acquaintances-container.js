@@ -5,9 +5,9 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import * as actions from './acquaintances-actions';
-import fuLogger from '../../core/common/fu-logger';
-import AcquaintancesView from '../../memberView/acquaintances/acquaintances-view';
-import BaseContainer from '../../core/container/base-container';
+import fuLogger from '../../../core/common/fu-logger';
+import AcquaintancesView from '../../../memberView/social/acquaintances/acquaintances-view';
+import BaseContainer from '../../../core/container/base-container';
 
 function AcquaintancesContainer({navigate}) {
 	const itemState = useSelector((state) => state.acquaintances);
